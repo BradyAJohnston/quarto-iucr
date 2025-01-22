@@ -10,6 +10,12 @@ contributes:
         - quarto-iucr.lua
     pdf:
       include-in-header: header.tex
+      documentclass: iucrjournals
+      format-resources:
+        - fig1.png
+        - harvard.sty
+        - iucr.bib
+        - iucrjournals.cls
     html:
       css: styles.css
 

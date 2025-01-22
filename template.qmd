@@ -1,9 +1,9 @@
 ---
-title: Quarto-iucr Template
+title: Quarto Template for IUCR Submission
 format:
-  quarto-iucr-pdf:
-    keep-tex: true  
-  quarto-iucr-html: default
+  quarto-iucr-pdf: default
+  #   keep-tex: true  
+  # quarto-iucr-html: default
 author:
   - name: Sarah Malloc
     affiliations:
