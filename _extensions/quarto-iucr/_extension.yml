@@ -17,6 +17,7 @@ contributes:
         - iucr.bib
         - iucrjournals.cls
       template-partials:
+        - partials/title.tex
         - partials/before-body.tex
         - partials/after-body.tex
         # - partials/doc-class.tex

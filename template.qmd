@@ -1,27 +1,48 @@
 ---
 title: Quarto Template for IUCR Submission
 format:
-  quarto-iucr-pdf: default
-  #   keep-tex: true  
+  quarto-iucr-pdf: 
+    keep-tex: true  
   # quarto-iucr-html: default
 
 
 author:
-  - name: Sarah Malloc
+  - name: Anne Author
+    orcid: xxxx-xxxx-xxxx-xxxx
+    email: orrauthor@org.org
+    attributes:
+      corresponding: true
     affiliations:
-      - name: An Organization
-        department: The Department
-        address: 1 Main St
-        city: Boston
-        country: USA
-        postal-code: 02210-1022
-      - A second affilication
-    orcid: 0000-0000-0000-0000
-    email: sm@example.org
-    url: https://example.org/
-  - name: Eliza Dealloc
+      - ref: a
+  - name: Secundus Segunda
+    email: coauthor@org.org
+    orcid: xxxx-xxxx-xxxx-xxxx
+    note: Unique note.
     affiliations:
-      - Another Affiliation
+      - ref: b
+  - name: Trinity Terzi
+    email: anothercorrauthor@org.org
+    orcid: xxxx-xxxx-xxxx-xxxx
+    note: Shared note.
+    attributes:
+      corresponding: true
+    affiliations:
+      - ref: a
+      - ref: b
+  - name: Clover Dufour
+    email: anothercoauthor@org.org
+    ocrid: xxxx-xxxx-xxxx-xxxx
+    note: 2
+    affiliations:
+      - ref: a
+      - ref: b
+
+affiliations:
+  - name: Department, Organization, ..., Country 
+    id: a
+  - name: Different Department, Different Organization, ..., Country 
+    id: b
+
 abstract: |
   Single paragraph stating as specifically and as quantitatively as possible the principal results obtained, and providing an indication of the broader significance of the work. The abstract should be capable of being understood on its own without access to the text or figures. 
 
