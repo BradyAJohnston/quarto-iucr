@@ -1,0 +1,22 @@
+$if(title)$
+\title{$title$}
+\maketitle
+$endif$
+
+
+
+$if(synopsis)$
+\begin{synopsis}
+$synopsis$
+\end{synopsis}
+$endif$
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$if(keywords)$
+\keywords{$for(keywords)$$keywords$$sep$; $endfor$}
+$endif$

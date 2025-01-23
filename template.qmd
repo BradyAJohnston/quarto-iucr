@@ -4,6 +4,8 @@ format:
   quarto-iucr-pdf: default
   #   keep-tex: true  
   # quarto-iucr-html: default
+
+
 author:
   - name: Sarah Malloc
     affiliations:
@@ -22,12 +24,54 @@ author:
       - Another Affiliation
 abstract: |
   This document is a template demonstrating the Quarto-iucr format.
+synopsis: |
+  One or two sentences suitable for the Journal contents listing and use in promoting your article via social media, highlighting the findings and significance of your work.
+acknowledgements: |
+  The contributions of non-authors etc. should be given here.
+funding: | 
+  List funding organizations, recipients, grant numbers, etc.
+conflics-of-interest: |
+  Please declare any conflicts of interest, or declare  that there are no conflicts of interest.
+data-availability: |
+  Please state how the data supporting the results reported in your article can be accessed, e.g. within the article, as published supporting material, in repositories, upon request...
 keywords: [template, demo]
-bibliography: bibliography.bib  
+bibliography: iucr.bib
 ---
 
-## Introduction {#sec-intro}
+## Section title
 
-*TODO* Create a template that demonstrates the appearance, formatting, layout, and functionality of your format. Learn more about journal formats at <https://quarto.org/docs/journals/>.
+Text text text text text text text text text text text text text text text text text text text text text [@knuth84, @lamport86].
 
+::: {#fig-figure1}
+![](fig1.png){width="50%" align="center"}
 
+Figure caption with citation @knuth84
+:::
+
+### Subsection title
+
+Text text text text text text text text text text text text text text text text text text text text text.
+
+#### Subsubsection title
+
+Text text text text text text text text text text text text text text text text text text text text text.
+
+## Section title
+
+Text text text text text text text text text text text text text text text text text text text text text.
+
+### Subsection title
+
+Text text text text text text text text text text text text text text text text text text text text text.
+
+#### Subsubsection title
+
+Text text text text text text text text text text text text text text text text text text text text text.
+
+| HEADING | FOR   | EACH  | COLUMN |
+|---------|-------|-------|--------|
+| entry   | entry | entry | entry  |
+| entry   | entry | entry | entry  |
+| entry   | entry | entry | entry  |
+
+: Caption to table @knuth84
