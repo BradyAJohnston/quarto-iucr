@@ -23,7 +23,8 @@ author:
     affiliations:
       - Another Affiliation
 abstract: |
-  This document is a template demonstrating the Quarto-iucr format.
+  Single paragraph stating as specifically and as quantitatively as possible the principal results obtained, and providing an indication of the broader significance of the work. The abstract should be capable of being understood on its own without access to the text or figures. 
+
 synopsis: |
   One or two sentences suitable for the Journal contents listing and use in promoting your article via social media, highlighting the findings and significance of your work.
 acknowledgements: |
