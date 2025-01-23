@@ -32,7 +32,7 @@ author:
   - name: Clover Dufour
     email: anothercoauthor@org.org
     ocrid: xxxx-xxxx-xxxx-xxxx
-    note: 2
+    note-index: 2 # reusing the second note
     affiliations:
       - ref: a
       - ref: b

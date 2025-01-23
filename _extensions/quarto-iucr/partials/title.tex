@@ -8,6 +8,9 @@ $if(by-author.attributes.corresponding)$
 $else$
 \IUCrEmaillink{$by-author.email$}
 $endif$
+$if(by-author.metadata.note-index)$
+\IUCrAufn[$by-author.metadata.note-index$]{}
+$endif$
 $if(by-author.note.text)$
 \IUCrAufn{$by-author.note.text$}
 $endif$
