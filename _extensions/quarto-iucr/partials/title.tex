@@ -8,8 +8,10 @@ $if(by-author.attributes.corresponding)$
 $else$
 \IUCrEmaillink{$by-author.email$}
 $endif$
+$if(by-author.note.text)$
+\IUCrAufn{$by-author.note.text$}
+$endif$
 }
-
 $endfor$
 
 $for(affiliations)$
