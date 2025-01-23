@@ -28,8 +28,8 @@ synopsis: |
   One or two sentences suitable for the Journal contents listing and use in promoting your article via social media, highlighting the findings and significance of your work.
 acknowledgements: |
   The contributions of non-authors etc. should be given here.
-funding: | 
-  List funding organizations, recipients, grant numbers, etc.
+funding-info: | 
+  List funding organizations, recipients, grant numbers, etc. Some more funding information is now included.
 conflics-of-interest: |
   Please declare any conflicts of interest, or declare  that there are no conflicts of interest.
 data-availability: |

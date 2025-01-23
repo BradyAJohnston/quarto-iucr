@@ -10,9 +10,9 @@
   "Lua.runtime.version": "Lua 5.3",
   "Lua.workspace.checkThirdParty": false,
   "Lua.workspace.library": [
-    "/Users/brady/.local/share/qvm/versions/v1.6.33/share/lua-types"
+    "C:\\ProgramData\\chocolatey\\lib\\quarto\\tools\\share\\lua-types"
   ],
-  "Lua.runtime.plugin": "/Users/brady/.local/share/qvm/versions/v1.6.33/share/lua-plugin/plugin.lua",
+  "Lua.runtime.plugin": "C:\\ProgramData\\chocolatey\\lib\\quarto\\tools\\share\\lua-plugin\\plugin.lua",
   "Lua.completion.showWord": "Disable",
   "Lua.completion.keywordSnippet": "Both",
   "Lua.diagnostics.disable": [
