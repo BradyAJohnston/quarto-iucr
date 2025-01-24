@@ -1,6 +1,6 @@
-title: Quarto-iucr
+title: Quarto-IUCr
 author: Brady Johnston
-version: 1.0.0
+version: 0.1.0
 quarto-required: ">=1.6.0"
 contributes:
   formats:
