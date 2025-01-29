@@ -228,12 +228,6 @@ being understood on its own without access to the text or figures.
 
 \keywords{template; demo}
 
-\renewcommand*\contentsname{Table of contents}
-{
-\hypersetup{linkcolor=}
-\setcounter{tocdepth}{3}
-\tableofcontents
-}
 
 \subsection{Section title}\label{section-title}
 
@@ -295,16 +289,15 @@ entry & entry & entry & entry \\
 \end{longtable}
 
 \phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
+\begin{CSLReferences}{1}{1}
 \bibitem[\citeproctext]{ref-knuth84}
-Knuth, Donald E. 1984. \emph{The TeXbook}. Addison-Wesley.
+Knuth, D. E. (1984). The TeXbook Addison-Wesley.
 
 \bibitem[\citeproctext]{ref-lamport86}
-Lamport, Leslie. 1986. \emph{{LaTeX}: A Document Preparation System}.
+Lamport, L. (1986). {LaTeX}: A document preparation system
 Addison-Wesley.
 
 \end{CSLReferences}
-
 
 
 
@@ -321,5 +314,8 @@ funding information is now included.
 \DataAvailability{Please state how the data supporting the results
 reported in your article can be accessed, e.g.~within the article, as
 published supporting material, in repositories, upon request\ldots{}}
+
+
+\bibliography{iucr} % basename of .bib file
 
 \end{document}

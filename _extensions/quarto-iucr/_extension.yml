@@ -9,17 +9,23 @@ contributes:
       filters:
         - quarto-iucr.lua
     pdf:
+      # suppress-bibliography: true 
       include-in-header: header.tex
       documentclass: iucrjournals
+      csl: iucr.csl
       format-resources:
         - fig1.png
         - harvard.sty
         - iucr.bib
+        - iucr.csl
         - iucrjournals.cls
       template-partials:
+        - partials/toc.tex
         - partials/title.tex
         - partials/before-body.tex
-        - partials/after-body.tex
+        # - partials/after-body.tex
+        - partials/biblio.tex
+
         # - partials/doc-class.tex
     html:
       css: styles.css
